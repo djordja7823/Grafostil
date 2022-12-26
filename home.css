@@ -20,7 +20,7 @@
 
 .navlevo {
     margin-left: 10%;
-    font-size: 2.8rem;
+    font-size: 1rem;
     font-family: 'Fredoka One', cursive;
     color: aqua;
     align-items: center;
@@ -48,12 +48,35 @@
     
 }
 
-.navdugme:hover {
-    background-color: aqua;
-    padding: 0.8rem 1.6rem;
-    cursor: pointer;
-    color: black;
+@media only screen and (max-width: 600px) {
+    .navdugme {
+        padding: 0.2rem 0.5rem;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    .navdugme {
+        padding: 0.5rem 0.7rem;
+        transition: padding 0.5s;
+    }
+    .navdugme:hover {
+        padding: 0.5rem 0.7rem;
+    }
+    .h1 {
+        font-size: 2.2rem;
+    }
 }
+
+@media only screen and (min-width: 992px) {
+    .navdugme:hover {
+        background-color: aqua;
+        padding: 0.8rem 1.6rem;
+        cursor: pointer;
+        color: black;
+    }
+}
+
+
 
 /*Kraj navbara*/
 /*-------------------------*/

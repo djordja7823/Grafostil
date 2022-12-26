@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background-color: rgb(15, 15, 43);
+}
+
+.navdesno {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.navlevo {
+    margin-left: 10%;
+    font-size: 2.8rem;
+    font-family: 'Fredoka One', cursive;
+    color: aqua;
+    align-items: center;
+    
+}
+
+
+.h1:hover {
+    cursor: pointer;
+}
+
+.desno {
+    margin: 0 1rem;
+}
+
+.navdugme {
+    font-family: 'Fredoka One', cursive;
+    border: 1px solid aqua;
+    border-radius: 1rem;
+    padding: 0.6rem 1.2rem;
+    transition: background-color 2s;
+    transition: padding 0.5s;
+    background-color: rgb(15, 15, 43);
+    color: white;
+    
+}
+
+.navdugme:hover {
+    background-color: aqua;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    color: black;
+}
+
+/*Kraj navbara*/
+/*-------------------------*/
+
+
+.slikatext {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4rem;
+    
+    align-items: center;
+    background-color: rgba(200, 200, 200, 0.8);
+}
+
+.treci {
+    padding-bottom: 4rem;
+}
+
+.slikatext-levo {
+    align-items: center;
+    margin-right: 5%;
+}
+
+.slikatext-desno {
+    margin-left: 5%;
+}
+
+
+.text {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+/*-----------------------------*/
+/*FOOTER*/
+.footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(15, 15, 43);
+    color: white;
+    padding-top: 1rem;
+}
+
+.footer-gore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-dole {
+    margin-top: 0.8rem;
+    border-top: solid gray 1px;
+    padding-bottom: 2rem;
+}
+
+.footer-levo {
+    width: 75%;
+    
+}
+.footer-desno {
+    width: 25%;
+    display: grid;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    border-left: solid gray 1px;
+
+}
+
+.footer-levo.gore {
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.6rem;
+}
+
+.footer-levo.dole {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-levo.dole-levo {
+    padding-top: 1rem;
+}
+
+.footer-levo.dole-desno {
+    color: white;
+}
+
+.instagram {
+    display: flex;
+}
+.instagram-text {
+    padding-top: 7px;
+}
+
+.facebook {
+    display: flex;
+}
+.facebook-text {
+    padding-top: 7px;
+}
+
+.textt {
+    font-family: 'Fredoka One', cursive;
+    margin-right: 10px;
+}
+.jej {
+    display: flex;
+    margin-top: 6px;
+}
+
+
+/*Kraj footera*/
+/*-----------------------------*/
+

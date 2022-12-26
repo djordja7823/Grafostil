@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafostil</title>
+</head>
+<body>
+    <style>
+        @import "stamparija.css";
+    </style>
+    <nav class="navbar">
+        <div class="navlevo">
+            <h1 class="h1">GRAFOSTIL</h1>
+        </div>
+        <div class="navdesno">
+            <div class="desno home">
+                <button class="navdugme" onclick="home()">Pocetna</button>
+            </div>
+            <div class="desno stamparija">
+                <button class="navdugme" onclick="stamparija()">Stamparija</button>
+            </div>
+            <div class="desno auto-folije">
+                <button class="navdugme">Auto Folije</button>
+            </div>
+            <div class="desno wrap">
+                <button class="navdugme" onclick="wrap()">Car Wrap</button>
+            </div>
+            <div class="desno kontakt">
+                <button class="navdugme">Kontakt</button>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
+
+
+<script>
+    function home() {
+      window.location.href = 'home.html';
+    }
+    function stamparija() {
+      window.location.href = 'stamparija.html';
+    }
+</script>

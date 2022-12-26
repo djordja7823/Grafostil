@@ -70,7 +70,7 @@
         font-family: 'Fredoka One', cursive;
         border: 1px solid aqua;
         border-radius: 1rem;
-        padding: 0.2rem 0.5rem;
+        padding: 0.5rem 0.8rem;
         transition: background-color 2s;
         transition: padding 0.5s;
         background-color: rgb(15, 15, 43);
@@ -78,7 +78,10 @@
         
     }
     .navdugme:hover {
-        padding: 0.4rem 0.6rem;
+        padding: 0.6rem 1rem;
+        background-color: aqua;
+        color: black;
+        cursor: pointer;
     }
     .h1 {
         font-size: 2.2rem;
@@ -92,6 +95,7 @@
         font-family: 'Fredoka One', cursive;
         color: aqua;
         text-align: center;
+        margin-bottom: 1.5rem;
     }
     .navdesno {
         display: flex;
@@ -100,6 +104,8 @@
         margin-left: 10%;
         align-items: center;
     }
+    .slider{width: 70%; margin-left: 15%; margin-right: 15%;}
+    .w-100{width:100%;height:15rem;}
 }
 
 @media only screen and (min-width: 992px) {
@@ -107,7 +113,7 @@
         font-family: 'Fredoka One', cursive;
         border: 1px solid aqua;
         border-radius: 1rem;
-        padding: 0.5rem 1rem;
+        padding: 0.6rem 1.2rem;
         transition: background-color 2s;
         transition: padding 0.5s;
         background-color: rgb(15, 15, 43);
@@ -141,7 +147,7 @@
     
     .navlevo {
         margin-left: 10%;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: 'Fredoka One', cursive;
         color: aqua;
         align-items: center;
@@ -150,6 +156,8 @@
     .desno {
         margin: 0 0.5rem;
     }
+    .slider{width: 70%; margin-left: 15%; margin-right: 15%;}
+.w-100{width:100%;height:20rem;}
 }
 
 

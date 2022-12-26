@@ -32,10 +32,9 @@
     cursor: pointer;
 }
 
-.desno {
-    margin: 0 1rem;
-}
 
+
+/*
 .navdugme {
     font-family: 'Fredoka One', cursive;
     border: 1px solid aqua;
@@ -47,32 +46,109 @@
     color: white;
     
 }
+*/
 
 @media only screen and (max-width: 600px) {
     .navdugme {
+        font-family: 'Fredoka One', cursive;
+        border: 1px solid aqua;
+        border-radius: 1rem;
         padding: 0.2rem 0.5rem;
+        transition: background-color 2s;
+        transition: padding 0.5s;
+        background-color: rgb(15, 15, 43);
+        color: white;
+        
+    }
+    .navdugme:hover {
+        padding: 0.3rem 0.6rem;
     }
   }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .navdugme {
-        padding: 0.5rem 0.7rem;
+        font-family: 'Fredoka One', cursive;
+        border: 1px solid aqua;
+        border-radius: 1rem;
+        padding: 0.2rem 0.5rem;
+        transition: background-color 2s;
         transition: padding 0.5s;
+        background-color: rgb(15, 15, 43);
+        color: white;
+        
     }
     .navdugme:hover {
-        padding: 0.5rem 0.7rem;
+        padding: 0.4rem 0.6rem;
     }
     .h1 {
         font-size: 2.2rem;
     }
+    .navbar {
+        display: block;
+    }
+    .navlevo {
+        margin: 0;
+        font-size: 2rem;
+        font-family: 'Fredoka One', cursive;
+        color: aqua;
+        text-align: center;
+    }
+    .navdesno {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 10%;
+        align-items: center;
+    }
 }
 
 @media only screen and (min-width: 992px) {
+    .navdugme {
+        font-family: 'Fredoka One', cursive;
+        border: 1px solid aqua;
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        transition: background-color 2s;
+        transition: padding 0.5s;
+        background-color: rgb(15, 15, 43);
+        color: white;
+        text-align: center;
+        
+    }
     .navdugme:hover {
         background-color: aqua;
-        padding: 0.8rem 1.6rem;
+        padding: 0.8rem 1.4rem;
         cursor: pointer;
         color: black;
+    }
+    .h1 {
+        font-size: 2.2rem;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        background-color: rgb(15, 15, 43);
+    }
+    
+    .navdesno {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+        align-items: center;
+    }
+    
+    .navlevo {
+        margin-left: 10%;
+        font-size: 1rem;
+        font-family: 'Fredoka One', cursive;
+        color: aqua;
+        align-items: center;
+        
+    }
+    .desno {
+        margin: 0 0.5rem;
     }
 }
 
